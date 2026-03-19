@@ -39,4 +39,13 @@ Enter the second number:
 Enter the required arithmetic operator [ + , - , * , / , % ] : 
 +
 The sum is: 13
+
+##Calculator_version 02
+#Added functions
+
+#Added operator-based choice
+
+#Added division by zero handling
+
+#Cleaner structure
    
