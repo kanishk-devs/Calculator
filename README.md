@@ -40,12 +40,12 @@ Enter the required arithmetic operator [ + , - , * , / , % ] :
 +
 The sum is: 13
 
-##Calculator_version 02
-#Added functions
+## Calculator_version 02
+# Added functions
 
-#Added operator-based choice
+# Added operator-based choice
 
-#Added division by zero handling
+# Added division by zero handling
 
-#Cleaner structure
+# Cleaner structure
    
