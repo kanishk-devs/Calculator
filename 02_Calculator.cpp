@@ -28,6 +28,7 @@ int main() {
     int y;
     char z;
 
+while (true) {
     cout << "Enter the operator (+, -, *, /, %):\n";
     cout << "/ is for quotient and % is for remainder and 0 to EXIT the program.\n";
     cin >> z;
@@ -72,5 +73,6 @@ int main() {
         cout << "INVALID OPERATOR\n";
     }
     }
+}
     return 0;
 }
