@@ -28,15 +28,22 @@ int main() {
     int y;
     char z;
 
+    cout << "Enter the operator (+, -, *, /, %):\n";
+    cout << "/ is for quotient and % is for remainder and 0 to EXIT the program.\n";
+    cin >> z;
+
+    if (z == '0') 
+    {
+        return 0;
+    }
+    else
+    {
+
     cout << "Enter the first number:\n";
     cin >> x;
 
     cout << "Enter the second number:\n";
     cin >> y;
-
-    cout << "Enter the operator (+, -, *, /, %):\n";
-    cout << "/ is for quotient and % is for remainder.\n";
-    cin >> z;
 
     if (z == '+') {
         cout << "The sum is: " << sum(x, y) << "\n";
@@ -64,6 +71,6 @@ int main() {
     else {
         cout << "INVALID OPERATOR\n";
     }
-
+    }
     return 0;
 }
